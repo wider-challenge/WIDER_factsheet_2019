@@ -1,0 +1,196 @@
+% last updated in April 2002 by Antje Endemann
+% Based on CVPR 07 and LNCS, with modifications by DAF, AZ and elle, 2008 and AA, 2010, and CC, 2011; TT, 2014; AAS, 2016
+
+\documentclass[runningheads]{llncs}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{amsmath,amssymb} % define this before the line numbering.
+\usepackage{ruler}
+\usepackage{color}
+\usepackage[width=122mm,left=12mm,paperwidth=146mm,height=193mm,top=12mm,paperheight=217mm]{geometry}
+\begin{document}
+% \renewcommand\thelinenumber{\color[rgb]{0.2,0.5,0.8}\normalfont\sffamily\scriptsize\arabic{linenumber}\color[rgb]{0,0,0}}
+% \renewcommand\makeLineNumber {\hss\thelinenumber\ \hspace{6mm} \rlap{\hskip\textwidth\ \hspace{6.5mm}\thelinenumber}}
+% \linenumbers
+\pagestyle{headings}
+\mainmatter
+\def\WIDER Track{***}  % Insert the track you participate in, 'WIDER Face', 'WIDER Pedestrian' or 'Person Search'
+
+\title{Title of the Contribution\\WIDER Face and Pedestrian Challenge 2019 Factsheet} % Replace 'Title of the Contribution' with your title
+
+\titlerunning{WIDER-Challenge - \WIDER Track}
+
+\authorrunning{WIDER-Challenge - \WIDER Track}
+
+\author{ WIDER Team}
+\institute{\empty}
+
+\maketitle
+
+
+This factsheet template\footnote{We acknowledge the nice factsheet template provided by the NTIRE competition.} is meant to structure the description of the contributions made by each participating team in the WIDER Face and Person Challenge 2019. 
+%
+Ideally all the aspects enumerated below should be addressed. The provided information and the achieved performance on the testing data are used to decide the awardees of the WIDER Challenge 2019. The factsheet will not be published. There is no page limit for the factsheet.
+%
+%The reproducibility is a must and needs to be checked for the final test results in order to qualify for the WIDER Challenge awards. Note that most awards will go to the teams with both released of codes and executables. 
+%
+The main winners will be decided based on the performance on their results for the tracks they participated. Please check the competition webpages for more details. 
+%
+The winners and the top ranking teams will be invited to submit a paper to the WIDER Challenge Workshop 2019.
+
+
+\section{Team Details}
+
+\begin{spacing}{1.5}
+\begin{itemize}
+
+\item[$\bullet$] Team name
+
+WIDER Avengers
+
+\item[$\bullet$] Team leader name
+
+WIDER
+
+\item[$\bullet$] Team leader address, phone number, and email
+
+The Chinese University of Hong Kong, ****, wider-challenge@ie.cuhk.edu.hk
+
+\item[$\bullet$] Rest of the team members
+
+WIDER-challengers
+
+\item[$\bullet$] Team website URL(if any)
+
+None
+
+\item[$\bullet$] Affiliation
+
+The Chinese University of Hong Kong
+
+\item[$\bullet$] Affiliation of the team and/or team members with WIDER Challenge 2019 sponsors
+
+None
+
+\item[$\bullet$]Track that you participated
+
+Face Detection / Pedestrian Detection / Cast Search by Portrait / Person Search by Language (choose one of them, please submit a separate factsheet for each track you participated)
+
+\item[$\bullet$]User names and entries on the WIDER Challenge 2019 Codalab competitions (development/validation and testing phases)
+
+wider
+
+\item[$\bullet$]Best scoring entries of the team during development/validation phase
+
+8
+
+\item[$\bullet$]Link to the codes/executables of the solution(s) (if any)
+**** we encourage the release of codes or executables for reproducibility
+
+\end{itemize}
+\end{spacing}
+
+\section{Contribution Details}
+\begin{spacing}{1.5}
+\begin{itemize}
+\item[$\bullet$] Team name
+
+WIDER-Participants
+
+\item[$\bullet$] Title of the contribution
+
+An innovative way for pedestrian detection
+
+\item[$\bullet$] General method description
+
+\item[$\bullet$] Description of the solutions for the track you participate in
+
+\item[$\bullet$] References
+
+\item[$\bullet$] Representative image / diagram of the method(s)
+
+\end{itemize}
+\end{spacing}
+
+\section{Global Method Description}
+\begin{spacing}{1.5}
+\begin{itemize}
+%\item[$\bullet$] Total method complexity: all stages
+
+\item[$\bullet$] Which pre-trained or external methods / models have been used (for any stage, if any)
+
+ImageNet pre-trained model
+
+\item[$\bullet$] Which additional data has been used in addition to the provided WIDER training and validation data (at any stage, if any)
+
+ImageNet ... please specify the details
+
+\item[$\bullet$] Training description
+
+\item[$\bullet$] Testing description
+
+\item[$\bullet$] Results of the comparison to other approaches (if any)
+
+No
+
+\item[$\bullet$] Results on other standard benchmarks (if any)
+
+No
+
+\item[$\bullet$] Novelty degree of the solution and if it has been previously published
+
+\end{itemize}
+\end{spacing}
+
+\section{Ensembles and Fusion Strategies}
+\begin{spacing}{1.5}
+\begin{itemize}
+
+\item[$\bullet$] Describe in detail the use of ensembles and/or fusion strategies (if any). 
+
+\item[$\bullet$] What was the benefit over the single method?
+
+\item[$\bullet$] What were the baseline and the fused methods?
+
+\end{itemize}
+\end{spacing}
+
+\section{Technical Details}
+\begin{spacing}{1.5}
+\begin{itemize}
+\item[$\bullet$] Language and implementation details (including platform, memory, parallelization requirements)
+
+python pytorch/ matlab caffe
+
+\item[$\bullet$] Human effort required for implementation, training and validation?
+ 
+No
+
+\item[$\bullet$] Training/testing time? Runtime at test per image. 
+
+Training time about 12h/0.02s at test per image
+
+\item[$\bullet$] Comment the robustness and generality of the proposed solution(s)? 
+
+\item[$\bullet$] Comment the efficiency of the proposed solution(s)?
+
+\end{itemize}
+\end{spacing}
+
+\section{Feedback}
+\begin{spacing}{1.5}
+\begin{itemize}
+
+\item[$\bullet$] General comments and impressions of the WIDER Challenge 2019.
+
+\item[$\bullet$] What do you expect from a new challenge in face and pedestrian detection, or person search?
+
+\item[$\bullet$] Other comments: encountered difficulties, fairness of the challenge, proposed subcategories, proposed evaluation method(s), etc.
+
+\end{itemize}
+\end{spacing}
+
+
+\bibliographystyle{splncs}
+\bibliography{egbib}
+\end{document}
